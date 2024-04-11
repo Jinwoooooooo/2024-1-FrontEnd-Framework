@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 import Library from './03/Library';
 import Clock from './04/Clock';
+import CommentList from './05/CommentList';
+import NotificationList from './06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // 3장
@@ -15,13 +17,25 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   </React.StrictMode>
 ); */
 // 4장
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      <Clock />
-    </React.StrictMode>
-  )
-}, 1000);
+// setInterval(() => {
+//   root.render(
+//     <React.StrictMode>
+//       <Clock />
+//     </React.StrictMode>
+//   )
+// }, 1000);
+//5장
+// root.render(
+//   <React.StrictMode>
+//     <CommentList />
+//   </React.StrictMode>
+// );
+//6장
+root.render(
+  <React.StrictMode>
+    <NotificationList />
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
