@@ -9,6 +9,7 @@ import Clock from './04/Clock';
 import CommentList from './05/CommentList';
 import NotificationList from './06/NotificationList';
 import Accommodate from './07/Accommodate';
+import ConfirmButton from './08/ConfirmButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // 3장
@@ -38,9 +39,14 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // );
 // 7장
+//root.render(
+//  <React.StrictMode>
+//   <Accommodate />
+//  </React.StrictMode>
+//);
 root.render(
   <React.StrictMode>
-    <Accommodate />
+    <ConfirmButton />
   </React.StrictMode>
 );
 
