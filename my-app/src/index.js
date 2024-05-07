@@ -10,43 +10,66 @@ import CommentList from './05/CommentList';
 import NotificationList from './06/NotificationList';
 import Accommodate from './07/Accommodate';
 import ConfirmButton from './08/ConfirmButton';
+import LandingPage from './09/LandingPage';
+import AttendanceBook from './10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// 3장
+
+/* 3장
 /*root.render(
   <React.StrictMode>
     <Library />
   </React.StrictMode>
 ); */
-// 4장
-// setInterval(() => {
-//   root.render(
-//     <React.StrictMode>
-//       <Clock />
-//     </React.StrictMode>
-//   )
-// }, 1000);
-//5장
-// root.render(
-//   <React.StrictMode>
-//     <CommentList />
-//   </React.StrictMode>
-// );
-//6장
-// root.render(
-//   <React.StrictMode>
-//     <NotificationList />
-//   </React.StrictMode>
-// );
-// 7장
-//root.render(
-//  <React.StrictMode>
-//   <Accommodate />
-//  </React.StrictMode>
-//);
+
+/* 4장
+setInterval(() => {
+  root.render(
+    <React.StrictMode>
+      <Clock />
+    </React.StrictMode>
+  )
+}, 1000); */
+
+/* 5장
+ root.render(
+   <React.StrictMode>
+     <CommentList />
+   </React.StrictMode>
+); */
+
+/* 6장
+ root.render(
+   <React.StrictMode>
+     <NotificationList />
+   </React.StrictMode>
+); */
+
+/* 7장
+root.render(
+  <React.StrictMode>
+   <Accommodate />
+  </React.StrictMode>
+); */
+
+/* 8장
 root.render(
   <React.StrictMode>
     <ConfirmButton />
+  </React.StrictMode>
+); */
+
+/* 9장
+root.render(
+  <React.StrictMode>
+    <LandingPage />
+  </React.StrictMode>
+); */
+
+// 10장
+root.render(
+  <React.StrictMode>
+    <AttendanceBook />
   </React.StrictMode>
 );
 
