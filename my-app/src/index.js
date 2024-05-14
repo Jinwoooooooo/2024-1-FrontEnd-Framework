@@ -12,6 +12,8 @@ import Accommodate from './07/Accommodate';
 import ConfirmButton from './08/ConfirmButton';
 import LandingPage from './09/LandingPage';
 import AttendanceBook from './10/AttendanceBook';
+import SignUp from './11/SignUp';
+import Calculator from './12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -66,10 +68,24 @@ root.render(
   </React.StrictMode>
 ); */
 
-// 10장
+/* 10장
 root.render(
   <React.StrictMode>
     <AttendanceBook />
+  </React.StrictMode>
+); */
+
+/* 11장
+root.render(
+  <React.StrictMode>
+    <SignUp />
+  </React.StrictMode>
+); */
+
+// 12장
+root.render(
+  <React.StrictMode>
+    <Calculator />
   </React.StrictMode>
 );
 
