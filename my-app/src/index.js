@@ -14,6 +14,8 @@ import LandingPage from './09/LandingPage';
 import AttendanceBook from './10/AttendanceBook';
 import SignUp from './11/SignUp';
 import Calculator from './12/Calculator';
+import ProfileCard from './13/ProfileCard';
+import DarkOrLight from './14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -82,10 +84,24 @@ root.render(
   </React.StrictMode>
 ); */
 
-// 12장
+/* 12장
 root.render(
   <React.StrictMode>
     <Calculator />
+  </React.StrictMode>
+); */
+
+/* 13장
+root.render(
+  <React.StrictMode>
+    <ProfileCard />
+  </React.StrictMode>
+); */
+
+// 14장
+root.render(
+  <React.StrictMode>
+    <DarkOrLight />
   </React.StrictMode>
 );
 
