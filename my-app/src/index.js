@@ -16,6 +16,7 @@ import SignUp from './11/SignUp';
 import Calculator from './12/Calculator';
 import ProfileCard from './13/ProfileCard';
 import DarkOrLight from './14/DarkOrLight';
+import Blocks from './15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -98,10 +99,17 @@ root.render(
   </React.StrictMode>
 ); */
 
-// 14장
+/* 14장
 root.render(
   <React.StrictMode>
     <DarkOrLight />
+  </React.StrictMode>
+); */
+
+// 15장
+root.render(
+  <React.StrictMode>
+    <Blocks />
   </React.StrictMode>
 );
 
