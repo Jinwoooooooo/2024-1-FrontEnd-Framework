@@ -13,6 +13,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: NotoSansKR;
 `;
 
 const Contanier = styled.div`
@@ -25,8 +26,8 @@ const Contanier = styled.div`
 `;
 
 const PostContanier = styled.div`
-    padding: 8px 16px;
-    border: 1px solid grey;
+    padding: 8px 20px;
+    border: 1px solid #dfe1e5;
     border-radius: 8px;
 `;
 
@@ -36,7 +37,7 @@ const TitleText = styled.p`
 `;
 
 const ContentText = styled.p`
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;  
     white-space: pre-wrap;
 `;

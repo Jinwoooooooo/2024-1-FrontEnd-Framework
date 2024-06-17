@@ -11,6 +11,10 @@ const StyledTextarea = styled.textarea`
     padding: 16px;
     font-size: 16px;
     line-height: 20px;
+    resize: none;
+    border: 1px solid rgb(190 190 190);
+    border-radius: 8px;
+    font-family: NotoSansKR;
 `;
 
 function TextInput(props) {
