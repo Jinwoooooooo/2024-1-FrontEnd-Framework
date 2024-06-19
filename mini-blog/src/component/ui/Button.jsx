@@ -5,16 +5,12 @@ const StyledButton = styled.button`
     padding: 8px 16px;
     font-size: 16px;
     border-width: 1px;
-    border-radius: 8px;
-    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #66666E;
+    color: white;
     cursor: pointer;
     font-family: NotoSansKR;
-    :hover {
-        color: white;
-        background-color: black;
-        transition: 0.5s;
-    }
-    
 `;
 
 function Button(props) {

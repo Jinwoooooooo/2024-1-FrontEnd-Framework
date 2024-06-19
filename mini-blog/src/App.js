@@ -11,9 +11,15 @@ import PostWritePage from "./component/page/PostWritePage";
 import PostViewPage from "./component/page/PostViewPage";
 
 const MainTitleText = styled.p`
-  font-size: 24px;
+  font-family: Bebas;
+  letter-spacing: 3px;
+  font-size: 80px;
   font-weight: bold;
   text-align: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 65px;
+  -webkit-text-stroke: 1px black;
 `;
 
 function App(props) {

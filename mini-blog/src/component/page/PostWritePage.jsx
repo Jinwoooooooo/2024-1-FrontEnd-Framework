@@ -32,22 +32,28 @@ function PostWritePage(props) {
     return (
         <Wrapper>
             <Contanier>
+                <Button 
+                    title="뒤로 가기"
+                    onClick={() => {
+                        navigate("/");
+                    }}
+                />
                 <TextInput
                     height={20}
                     value={title}
+                    placeholder="제목을 입력하세요."
                     onChange={(event) => {
                         setTitle(event.target.value);
                     }}
                 />
-
                 <TextInput
                     height={480}
                     value={title}
+                    placeholder="여기에 내용을 입력하세요."
                     onChange={(event) => {
                         setTitle(event.target.value);
                     }}
                 />
-
                 <Button 
                     title="글 작성하기"
                     onClick={() => {

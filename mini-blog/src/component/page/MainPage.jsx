@@ -22,6 +22,9 @@ const Contanier = styled.div`
     :not(:last-child) {
         margin-bottom: 16px;
     }
+    button {
+        margin-bottom: 100px;
+    }
 `;
 
 function MainPage(props) {
@@ -32,18 +35,17 @@ function MainPage(props) {
     return (
         <Wrapper>
             <Contanier>
-                <Button
-                    title="글 작성하기"
-                    onClick={() => {
-                        navigate("/post-write");
-                    }}
-                />
-
                 <PostList
                     posts={data}
                     onClickItem={(item) => {
                         navigate(`/post/${item.id}`);
-                    }}
+                        }}
+                />
+                <Button
+                    title="글 작성하기"
+                    onClick={() => {
+                        navigate("/post-write");
+                        }}
                 />
             </Contanier>
         </Wrapper>

@@ -23,12 +23,16 @@ const Contanier = styled.div`
     :not(:last-child) {
         margin-bottom: 16px;
     }
+    button {
+        margin-bottom: 100px;
+    }
 `;
 
 const PostContanier = styled.div`
     padding: 8px 20px;
-    border: 1px solid #dfe1e5;
+    border: 2px solid #E6E6E9;
     border-radius: 8px;
+    background-color: white;
 `;
 
 const TitleText = styled.p`
@@ -80,6 +84,7 @@ function PostViewPage(props) {
                     onChange={(event) => {
                         setComment(event.target.value);
                     }}
+                    placeholder="댓글을 입력하세요."
                 />
                 <Button
                     title="댓글 작성하기"

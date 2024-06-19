@@ -8,10 +8,10 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    border: 1px solid #dfe1e5;
+    border: 2px solid #E6E6E9;
     border-radius: 8px;
     cursor: pointer;
-    background: white;
+    background-color: white;;
     :hover {
         background-color: lightgrey;
     }
